@@ -5,3 +5,93 @@
 	height: 35px;
 	background: white;
 }
+	body {
+	margin: 0;
+	font-family: "Lucida Console", Monaco, monospace;
+	background-image: url('background.jpg');
+	  }
+	h1{
+		background-color: #C0C0C0;
+		color: #B0E0E6;
+		text-shadow: 2px 2px #2F4F4F
+	}
+  
+	.menu {
+		overflow: hidden;
+		background-color: #C0C0C0;
+		position: fixed;
+  		top: 0;
+		width: 100%;
+		color:	#2F4F4F
+	  }
+	  
+	  .menu a {
+		float: left;
+		color: #2F4F4F;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		display: block;
+	  }
+	  
+	  .menu a:hover {
+		background-color: #DCDCDC;
+		color: #696969;
+	  }
+	  .section {
+		text-align: center;
+		font-family: "Lucida Console", Monaco, monospace;
+		font-size: 20px;
+		color: 	#2F4F4F;
+	}
+	.img:hover{
+		transform: scale(1.2);
+	}
+	/* Create two columns that float next to eachother */
+    .column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+  }
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #C0C0C0;
+	color: #2F4F4F;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #DCDCDC;
+  }
+  * {
+	box-sizing: border-box;
+  }
+  
+  
